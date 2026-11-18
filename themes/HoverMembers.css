@@ -1,13 +1,23 @@
 /* A custom hover members made by Kronweber */
 
-.container_86es0b {
+.container_86es0b,
+.container_UPjGEs {
   transition: 0.5s;
   width: 56px !important;
 }
 
-.container_86es0b:hover {
+.container_86es0b:hover,
+.container_UPjGEs:hover {
   transition: 0.5s;
   width: 265px !important;
+}
+
+/* Fix thread members */
+.container_UPjGEs {
+  justify-content: flex-start !important;
+  flex-shrink: 0 !important;
+  min-width: 0px !important;
+  overflow: hidden !important;
 }
 
 .membersGroup_86es0b {
@@ -17,7 +27,8 @@
   padding: 0px !important;
 }
 
-.container_86es0b:hover .membersGroup_86es0b {
+.container_86es0b:hover .membersGroup_86es0b,
+.container_UPjGEs:hover .membersGroup_86es0b {
   transition: 0.5s;
   height: 40px !important;
   opacity: 100% !important;
